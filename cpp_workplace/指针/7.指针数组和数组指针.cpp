@@ -27,6 +27,6 @@ int main(){
     ap = &arr;      //ap指向的是整个arr数组 
     cout << "*ap = " << *ap << endl;
     cout << "**ap = " << **ap << endl;
-    cout << "**ap+1 = " << **ap+1 << endl;
+    cout << "**ap+1 = " << **ap+1  << endl;
 
 }

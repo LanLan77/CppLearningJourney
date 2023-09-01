@@ -14,7 +14,7 @@ int main() {
     int i = 1;
     int * const cp = &i;
     //cp =  &a; 
-    *cp = 12;
+    *cp = 12; 
     cout << "i = " << i  << endl;
 
 
