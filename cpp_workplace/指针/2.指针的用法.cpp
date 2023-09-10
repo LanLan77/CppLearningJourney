@@ -8,13 +8,13 @@ int main ()
     string* ptr = &food;
 
     // 输出食物的价值（Pizza）
-    cout << food << "\n";
+    cout << "food内存储的是： " <<food << "\n";
 
     // 输出食物的内存地址（0x6dfed4）
-    cout << &food << "\n";
+    cout << "&food内存储的是： "<<&food << "\n";
 
     // 访问食物的内存地址并输出其值（Pizza）
-    cout << *ptr << "\n";
+    cout << "*ptr内存储的是： "<<*ptr << "\n";
 
     // 改变指针的值
     *ptr = "Hamburger";
@@ -28,7 +28,7 @@ int main ()
 
     cout << "-------------------" << "\n";
     // 不带星访问的是内存地址
-    cout << ptr << "\n";
+    cout << "ptr内存储的是： "<< ptr << "\n";
     // 带星访问的是值
-    cout << *ptr << "\n";
+    cout << "*ptr内存储的是： "<<*ptr << "\n";
 }
